@@ -52,12 +52,14 @@ public class MainPanel extends JPanel {
 			}
 
 			try {
-				Thread.sleep(10);
+				Thread.sleep(2);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 //			this.validate();
+			
 		}
+		mainFrame.remove(this);;
 	}
 
 }
